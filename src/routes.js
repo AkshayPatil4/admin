@@ -18,7 +18,7 @@
 import Dashboard from "views/Dashboard.jsx";
 import Icons from "views/BandSection.jsx";
 import Map from "views/StudioSection.jsx";
-import Notifications from "views/Notifications.jsx";
+import ArtistSection from "views/ArtistSection.jsx";
 import Rtl from "views/Rtl.jsx";
 import ProductSection from "views/ProductSection.jsx";
 import OrderSection from "views/OrderSection.jsx";
@@ -50,11 +50,11 @@ var routes = [
     layout: "/admin"
   },
   {
-    path: "/notifications",
-    name: "Notifications",
+    path: "/ArtistSection",
+    name: "Artist Section",
     rtlName: "إخطارات",
     icon: "tim-icons icon-bell-55",
-    component: Notifications,
+    component: ArtistSection,
     layout: "/admin"
   },
   {
