@@ -19,7 +19,7 @@ import Dashboard from "views/Dashboard.jsx";
 import Icons from "views/BandSection.jsx";
 import Map from "views/StudioSection.jsx";
 import ArtistSection from "views/ArtistSection.jsx";
-import Rtl from "views/Rtl.jsx";
+import EventSection from "views/EventSection.jsx";
 import ProductSection from "views/ProductSection.jsx";
 import OrderSection from "views/OrderSection.jsx";
 import UserSection from "views/UserSection.jsx";
@@ -76,18 +76,18 @@ var routes = [
   {
     path: "/OrderSection",
     name: "OrderSection",
-    rtlName: "طباعة",
+    
     icon: "tim-icons icon-align-center",
     component: OrderSection,
     layout: "/admin"
   },
   {
-    path: "/rtl-support",
-    name: "RTL Support",
-    rtlName: "ار تي ال",
+    path: "/EventSection",
+    name: "Event Section",
+   
     icon: "tim-icons icon-world",
-    component: Rtl,
-    layout: "/rtl"
+    component: EventSection,
+    layout: "/admin"
   }
 ];
 export default routes;
